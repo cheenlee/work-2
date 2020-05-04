@@ -10,6 +10,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        ZStack{
+        Color(#colorLiteral(red: 0.1012848243, green: 0.1013095453, blue: 0.1012815759, alpha: 1))
+        .edgesIgnoringSafeArea(.all)
         
         VStack(spacing: 15.0){
             Spacer()
@@ -134,10 +137,10 @@ struct ContentView: View {
         .padding(.all, 30.0)
             .font (.system (size:30))
         .foregroundColor(.white)
-        .background(Color (#colorLiteral(red: 0.1529411765, green: 0.1529411765, blue: 0.1529411765, alpha: 1)))
-        .edgesIgnoringSafeArea(.all)
+
         
         
+        }
     }
     
 }
